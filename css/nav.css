@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    background-color: #edf0f2;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    background-color: white;
+}
+.nav_con{
+    width: 1050px;
+    height: 110px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 114px;
+    height: 89px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav_menu{
+    display: flex;
+    list-style: none;
+}
+.nav_menu li{
+    margin: 0 50px 0 0;
+    transition: 0.5s ease;
+    opacity: 0.5;
+}
+.nav_menu li:hover{
+    opacity: 1;
+}
+.login_page a{
+    cursor: pointer;
+    display: flex;
+    border: 2px solid #a0a6a9;
+    padding: 8px;
+    border-radius: 15px;
+}
+.login_page{
+    display: flex;
+}
+.login_page a .icon_login{
+    margin: 0 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  35px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.icon_login i {
+    font-size: 15px;
+}
+.login_page a span{
+    font-size: 20px;
+}
+.logout{
+   display: flex;
+   padding: 10px 20px;
+   align-items: center;
+   text-align: center;
+}
+.logout i{
+    font-size: 25px;
+}

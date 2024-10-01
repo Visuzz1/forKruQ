@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.container{
+    margin: 0 auto;
+    width: 990px;
+}
+.content_items{
+    background-color: white;
+    margin: 20px 0 0 0;
+    padding: 20px;
+}
+.img_news{
+    width: 950px;
+    height: 600px;
+    margin: 20px 0 20px 0;
+    object-fit: cover;
+}
+.img_news img{
+    width: 100%;
+}
+.header h1{
+    font-size: 44px;
+}
+.time{
+    color: #3d4245;;
+    margin: 0 0 20px 0;
+}
+article{
+    color: #3d4245;
+    margin: 0 0 30px 0;
+}
+.btngoback{
+    cursor: pointer;
+    border-radius: 7px;
+    position: fixed;
+    padding: 10px 20px;
+    margin: 0 0 0 20px;
+    border: none;
+    top: 2%;
+    color: white;
+    background-color: #FABC3F;
+    opacity: 0.7;
+    transition: 0.5s ease;
+}
+.btngoback:hover{
+    opacity: 1;
+}

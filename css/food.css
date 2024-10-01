@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    background-color: #edf0f2;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+header{
+    margin: 20px 0 20px 0;
+    display: flex;
+}
+header img{
+    border-radius: 7px;
+}
+.img_one{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.img_one img{
+    width: 100%;
+}
+.img_two{
+    margin: 0 0 0 7px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.img_two_items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 7px;
+    column-gap: 7px;
+}
+.img_two img{
+    width: 100%;
+    height: 197px;
+}
+.card_con{
+    display: grid;
+    grid-template-columns: repeat(2, 600px 400px);
+}
+.card_left{
+    margin: 0 20px 0 0;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.card_right{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.card_right .checkbox ul li{
+    list-style: none;
+}
+.card_bottom{
+    margin: 20px 0 0 0;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.card_bottom_item{
+    display: flex;
+    padding: 20px 300px;
+    justify-content: space-between;
+}
+.card_bottom_item i{
+    font-size: 30px;
+}
+p{
+    color: #787f83;
+}
+h3{
+    font-size: 25px;
+    margin: 0 0 10px 0;
+}
+h5{
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
+input{
+    margin: 5px 5px 0 0;
+}

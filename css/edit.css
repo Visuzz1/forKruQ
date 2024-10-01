@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #edf0f2;
+    margin: 20px 0 0 0;
+    height: 150vh;
+}
+.card_content{
+    margin: 0 auto;
+    width: 890px;
+    height: auto;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+/* checkbox */
+.form-check{
+    padding: 0 0 0 35px;
+}
+.form-check input{
+    padding: 10px;
+    margin: 0 0 0 30px;
+}
+.form-check .text{
+  margin: 0 0 0 8px;
+}
+/* btn */
+.btnAction{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+.Btn_submit_recommend{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: #0093e8;
+    color: white;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.Btn_submit_recommend:hover{
+    opacity: 1;
+}
+.Btn_cancel_recommend{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: #666;
+    color: white;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.Btn_cancel_recommend:hover{
+    opacity: 1;
+}
+/* input label */
+form label p{
+    padding: 0 0 0 15px;
+}
+form input{
+    padding: 10px 20px;
+}
+form h3{
+    padding: 20px 20px 0px 20px;
+}
+/* IMAGE */
+/* สไตล์สำหรับรูปภาพ */
+.img-container {
+    width: 200px;
+    height: 150px;
+}
+
+.img-container img {
+    margin: 20px 0 20px 0;
+    border-radius: 7px; /* เพิ่ม border-radius ให้กับรูปภาพ */
+    max-width: 100%; /* ทำให้รูปภาพไม่เกินขนาด container */
+    height: 150px;
+}
+.img_container_assemblePic{
+    width: 300px;
+    height: 120px;
+    display: flex;
+}
+.img_container_assemblePic img{
+   width: 100%;
+   border-radius: 7px;
+   margin: 20px 0 0 0;
+}
+/* viral */
+.Btn_submit_viral{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: #0093e8;
+    color: white;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.Btn_submit_viral:hover{
+    opacity: 1;
+}
+.Btn_cancel_viral{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: #666;
+    color: white;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.Btn_cancel_viral:hover{
+    opacity: 1;
+}
+/* food */
+.Btn_submit_food{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: #0093e8;
+    color: white;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.Btn_submit_food:hover{
+    opacity: 1;
+}
+.Btn_cancel_food{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: #666;
+    color: white;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.Btn_cancel_food:hover{
+    opacity: 1;
+}
+/* drinks */
+.Btn_submit_drinks{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: #0093e8;
+    color: white;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.Btn_submit_drinks:hover{
+    opacity: 1;
+}
+.Btn_cancel_drinks{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: #666;
+    color: white;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.Btn_cancel_drinks:hover{
+    opacity: 1;
+}

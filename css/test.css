@@ -1,0 +1,81 @@
+/* view */
+.card_view_con{
+    display: block;
+}
+.card_view{
+    width: 1490px;
+    height: 60px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.card_view_manager_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.card_view_manager_header input{
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid #3d4245;
+}
+.card_view_manager_header input:focus{
+    border: 1px solid #0093e8;
+}
+
+.card_view button{
+    cursor: pointer;
+    margin: 0 20px 0 20px;
+    border: none;
+    background-color: transparent;
+}
+.card_view button:focus{
+    color: #0093e8;
+}
+.card_view_content{
+    display: block; 
+    width: 1490px;
+    height: auto;
+    margin: 10px 0 0 0;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+form label p{
+    padding: 0 0 0 15px;
+}
+form input{
+    padding: 10px 20px;
+}
+.card_view_manager_con{
+    display: block;
+}
+.card_view_manager{
+    width: 1490px;
+    height: auto;
+    margin: 10px 0 0 0;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;   
+}
+.Btn_submit_view{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin: 0 0 0 970px;
+    background-color: #0093e8;
+    color: white;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.Btn_submit_view:hover{
+    opacity: 1;
+}
